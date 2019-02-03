@@ -1,8 +1,11 @@
 const path = require('path');
+const JSName = process.env.JSName || 'main'
+
+console.log(`JSName:${JSName}`);
 
 module.exports = [{
   entry: {
-    app: ['./lib/main.js'],
+    app: [`./lib/${JSName}.js`],
   },
   mode: "development",
   output: {

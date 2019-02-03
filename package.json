@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "dataMapElement": "JSName=dataMapElement webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   "dependencies": {
     "@babel/runtime": "^7.3.1",
     "d3": "^5.8.0",
-    "terser": "^3.14.1"
+    "terser": "^3.14.1",
+    "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
