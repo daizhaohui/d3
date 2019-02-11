@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "dataMapElement": "JSName=dataMapElement webpack-dev-server"
+    "dataMapElement": "JSName=dataMapElement webpack-dev-server",
+    "path": "JSName=path webpack-dev-server",
+    "axes": "JSName=axes webpack-dev-server",
+    "formats": "JSName=formats webpack-dev-server",
+    "geo": "JSName=geography webpack-dev-server",
+    "ani": "JSName=animation webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,7 +25,9 @@
   "dependencies": {
     "@babel/runtime": "^7.3.1",
     "d3": "^5.8.0",
+    "d3-dsv": "^1.0.10",
     "terser": "^3.14.1",
+    "topojson": "^3.0.2",
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {
