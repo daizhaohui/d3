@@ -71,3 +71,26 @@ body {
   stroke-width: 2px;
   stroke: goldenrod;
 }
+
+.link {
+  fill: none;
+  stroke: lightblue;
+}
+
+.label {
+  font-family: sans-serif;
+}
+
+.node rect {
+  stroke: grey;
+  stroke-width: 1px;
+}
+
+#tooltip {
+  font-family: sans-serif;
+  fill: black;
+}
+
+#tooltip rect {
+  fill: rgba(255, 255, 255, 0.6);
+}

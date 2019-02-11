@@ -10,7 +10,13 @@
     "axes": "JSName=axes webpack-dev-server",
     "formats": "JSName=formats webpack-dev-server",
     "geo": "JSName=geography webpack-dev-server",
-    "ani": "JSName=animation webpack-dev-server"
+    "ani": "JSName=animation webpack-dev-server",
+    "chart": "JSName=chart webpack-dev-server",
+    "drag": "JSName=drag webpack-dev-server",
+    "brush": "JSName=brush webpack-dev-server",
+    "button": "JSName=button webpack-dev-server",
+    "layout": "JSName=layout webpack-dev-server",
+    "layout1": "JSName=layout1 webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -23,9 +29,12 @@
   },
   "homepage": "https://github.com/daizhaohui/d3#readme",
   "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
     "@babel/runtime": "^7.3.1",
+    "@babel/runtime-corejs2": "^7.3.1",
     "d3": "^5.8.0",
     "d3-dsv": "^1.0.10",
+    "d3-svg-legend": "^2.25.6",
     "terser": "^3.14.1",
     "topojson": "^3.0.2",
     "whatwg-fetch": "^3.0.0"
